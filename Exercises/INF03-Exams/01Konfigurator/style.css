@@ -4,21 +4,21 @@ body {
 }
 
 #left {
-    height: 600px;
+    height: 400px;
     width: 30%;
     background-color: maroon;
     float: left;
 }
 
 #right {
-    height: 600px;
+    height: 400px;
     width: 70%;
     background-color: blue;
     float: right;
 }
 
 p {
-    padding: 10px;
+    padding: 15px;
 }
 
 #right-top {
