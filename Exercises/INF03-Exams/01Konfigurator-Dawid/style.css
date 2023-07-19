@@ -1,0 +1,62 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#left {
+    height: 600px;
+    width: 30%;
+    background-color: maroon;
+    float: left;
+    
+}
+
+#right {
+    height: 600px;
+    width: 70%;
+    background-color: maroon;
+    float: right;
+}
+
+p {
+    padding: 10px;
+}
+
+#right-top {
+    display: flex;
+
+}
+
+footer {
+    background-color: gray;
+}
+
+img {
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+}
+
+#indigo {
+    background-color: indigo;
+}
+#steel {
+    background-color: steelblue;
+}
+#olive {
+    background-color: olive;
+}
+
+#select option[value="white"] {
+    background-color: white;
+}
+#select option[value="tan"] {
+    background-color: tan;
+}
+#select option[value="bisque"] {
+    background-color: bisque;
+}
+#select option[value="plum"] {
+    background-color: plum;
+}

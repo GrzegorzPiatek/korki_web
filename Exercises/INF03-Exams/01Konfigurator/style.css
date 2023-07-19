@@ -1,0 +1,63 @@
+body {
+    font-family: georgia;
+    color: white;
+}
+
+#left {
+    height: 600px;
+    width: 30%;
+    background-color: maroon;
+    float: left;
+}
+
+#right {
+    height: 600px;
+    width: 70%;
+    background-color: blue;
+    float: right;
+}
+
+p {
+    padding: 10px;
+}
+
+#right-top {
+    display: flex;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+img {
+    padding: 10px;
+}
+
+.my-border {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white; 
+}
+
+#btn-indigo {
+    background-color: indigo;
+}
+#btn-steel {
+    background-color: steelblue;
+}
+#btn-olive {
+    background-color: olive;
+}
+
+#select option[value="white"] {
+    background-color: white;
+}
+#select option[value="tan"] {
+    background-color: tan;
+}
+#select option[value="bisque"] {
+    background-color: bisque;
+}
+#select option[value="plum"] {
+    background-color: plum;
+}
