@@ -1,6 +1,7 @@
 const frameCheckbox = document.getElementById('checkbox-frame')
 let image = document.getElementById("main-image")
 
+frameCheckbox.style
 // frameCheckbox.addEventListener("change", changeBorder );
 frameCheckbox.addEventListener("change", switchBorderClass);
 
@@ -24,4 +25,3 @@ function switchBorderClass() {
         image.classList.remove("my-border")
     }
 }
-
