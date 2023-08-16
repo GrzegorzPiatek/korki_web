@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>List of Users</title>
+</head>
+<body>
+    <h1>List of Users</h1>
+
+    <table id="userTable" class="borderedTable whiteTable strippedTable">
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Email </th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+
+        const users = [
+            { name: "Jan", email: "jan@gmail.com" },
+            { name: "Adam", email: "Adam@op.pl" },
+            { name: "Alicja", email: "Alicja@test.pl", sex: "female"}
+        ]
+
+        console.log(users)
+
+        const userTable = document.getElementById("userTable");
+        users.forEach( user => {
+            const row = userTable.insertRow()
+            const nameCell = row.insertCell(0)
+            const emailCell = row.insertCell(1)
+
+            nameCell.textContent = user.name
+            emailCell.textContent = user.email
+        })
+            
+    </script>
+    
+</body>
+</html>
